@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://172.81.253.212:3306/javaTest
+    username: root
+    password: hakuroot
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    format-sql: true
